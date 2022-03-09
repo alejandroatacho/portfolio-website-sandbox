@@ -9,6 +9,9 @@
     <title>My Portofolio</title>
 </head>
 <body>
+    <div class="menu">
+<?php include 'views/php/layout/navbar.php';?>
+</div>
     <!-- header -->
     <header id = "header" class = "vh-100 flex">
         <div class = "container">
