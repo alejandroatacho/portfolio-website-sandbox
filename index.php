@@ -8,6 +8,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>My Portofolio</title>
 </head>
 <body>
+    <style>
+        .facebook_icon:hover {
+        filter:drop-shadow(10px 10px 4px #4444dd);
+        }
+    </style>
     <div class="menu">
 <?php include 'views/php/layout/navbar.php';?>
 </div>
@@ -19,7 +24,7 @@
                 <h3>Alejandro Atacho</h3>
 
                 <ul class = "social-links">
-                    <li>
+                    <li class="facebook_icon">
                         <a href = "#" class = "flex">
                             <i class = "fab fa-facebook-f"></i>
                         </a>

@@ -4,6 +4,7 @@
   --transition: all 300ms ease-in-out;
   --dark-color: #332e29;
   --light-color: #fff;
+  --bg: #222;
 }
 
 * {
@@ -130,6 +131,18 @@ h3 {
 .social-links {
   display: flex;
   margin-top: 3.5rem;
+  gap: 10px;
+  position: relative;
+}
+.social-links ul li {
+  list-style: none;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
 }
 .social-links li a {
   width: 40px;
